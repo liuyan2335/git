@@ -1,0 +1,28 @@
+# Claude AI config (local settings)
+.claude/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (if applicable)
+node_modules/
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+*.log
