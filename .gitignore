@@ -27,3 +27,4 @@ dist/
 build/
 *.log
 GIT_test/
+C_test/
