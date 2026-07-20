@@ -1,0 +1,50 @@
+# ─── Build Artifacts ───
+bin/
+build/
+obj/
+*.o
+*.elf
+*.out
+*.a
+*.so
+*.dylib
+
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.egg
+.venv/
+venv/
+env/
+
+# ─── Audio & Data ───
+audio_data/
+*.wav
+*.pcm
+*.raw
+logs/
+*.log
+
+# ─── IDE ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── Config (contains API keys) ───
+server_config.json
+.env
+*.secret
+
+# ─── OS ───
+.directory
+
+# ─── Temp ───
+/tmp/
+*.tmp
+*.bak

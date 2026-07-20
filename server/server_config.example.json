@@ -1,0 +1,16 @@
+{
+    "_comment": "Rename this file to server_config.json and fill in your credentials.",
+    "_note": "You can also use environment variables: XF_APP_ID, XF_API_KEY, XF_API_SECRET, DEEPSEEK_API_KEY",
+
+    "asr": {
+        "app_id": "your_xunfei_app_id_here",
+        "api_key": "your_xunfei_api_key_here",
+        "api_secret": "your_xunfei_api_secret_here"
+    },
+
+    "llm": {
+        "api_key": "sk-your-deepseek-api-key-here",
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com"
+    }
+}
